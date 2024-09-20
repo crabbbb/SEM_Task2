@@ -1,0 +1,276 @@
+{
+    "Diploma": [
+        {
+            "course": "Diploma in Computer Science",
+            "link": "https://focs.tarc.edu.my/programmes/diploma/diploma-in-computer-science-dcs",
+            "career": [
+                "Programmer",
+                "System Analyst",
+                "Mobile Application Developer",
+                "Software Developer",
+                "Database Administrator"
+            ]
+        },
+        {
+            "course": "Diploma in Information Technology",
+            "link": "https://focs.tarc.edu.my/programmes/diploma/diploma-in-information-technology-dft",
+            "career": [
+                "Programmer",
+                "System Analyst",
+                "Web Developer",
+                "Mobile Application Developer",
+                "Network Support Officer",
+                "IT Support Executive",
+                "IT Executive"
+            ]
+        },
+        {
+            "course": "Diploma in Software Engineering",
+            "link": "https://focs.tarc.edu.my/programmes/diploma/diploma-in-software-engineering-dsf",
+            "career": [
+                "System Analyst",
+                "Software Engineer",
+                "Software Developer",
+                "Software Tester",
+                "Web Developer",
+                "Database Administrator"
+            ]
+        }
+    ],
+
+    "Bachelor Degree": [
+        {
+            "course": "Bachelor of Science (Honours) in Management Mathematics with Computing",
+            "link": "https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-science-honours-in-management-mathematics-with-computi-rmm",
+            "career": [
+                "Officers in Financial Institutions",
+                "Quantitative Analyst",
+                "Quality Manager",
+                "Research Officer",
+                "Investment Analyst",
+                "Financial Analyst",
+                "Management Consultant",
+                "Financial Planners and Advisor",
+                "Pricing Analyst",
+                "Market Risk Manager",
+                "Credit Risk Manager",
+                "Asset/Liability Manager",
+                "IT Manager",
+                "Programmer"
+            ]
+        },
+        {
+            "course": "Bachelor of Information Systems (Honours) in Enterprise Information Systems",
+            "link": "https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-information-systems-honours-in-enterprise-information-s-rei",
+            "career": [
+                "ERP Consultant",
+                "Business Analyst",
+                "System Analyst",
+                "Business Process Consultant",
+                "Business Intelligence Specialist",
+                "Data Warehouse Developer",
+                "IT Consultant",
+                "IT Manager",
+                "Programmer",
+                "Web Designer",
+                "Database Administrator"
+            ]
+        },
+        {
+            "course": "Bachelor of Computer Science (Honours) in Interactive Software Technology",
+            "link": "https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-computer-science-honours-in-interactive-software-techno-rst",
+            "career": [
+                "Games Designer",
+                "Games Programmer",
+                "Games Software Engineer",
+                "Games Producer",
+                "Games Tester",
+                "Technical Lead",
+                "Web Designer",
+                "Multimedia Developer",
+                "Software Developer",
+                "Mobile Application Developer",
+                "System Analyst"
+            ]
+        },
+        {
+            "course": "Bachelor of Information Technology (Honours) in Information Security",
+            "link": "https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-information-technology-honours-in-information-security-ris",
+            "career": [
+                "Information Security Analyst",
+                "Information Security Consultant",
+                "Information Security Manager",
+                "Information Security Engineer",
+                "Information Security Administrator",
+                "Information Security Auditor",
+                "Forensics Analyst",
+                "Forensics Investigator",
+                "Security Software Developer",
+                "Mobile Application Developer",
+                "Network Security Engineer"
+            ]
+        },
+        {
+            "course": "Bachelor of Computer Science (Honours) in Data Science",
+            "link": "https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-computer-science-honours-in-data-science-rds",
+            "career": [
+                "Data Scientist",
+                "Data Engineer",
+                "Data Analyst",
+                "Data Modelling Engineer",
+                "Software Developer",
+                "Mobile Application Developer",
+                "Computer Science Researcher",
+                "Machine Learning Engineer"
+            ]
+        },
+        {
+            "course": "Bachelor of Information Technology (Honours) in Software Systems Development",
+            "link": "https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-information-technology-honours-in-software-systems-deve-rsd",
+            "career": [
+                "Programmer",
+                "Web Developer",
+                "Multimedia Developer",
+                "Mobile Application Developer",
+                "System Analyst",
+                "Software Engineer",
+                "Database Administrator",
+                "Network Engineer",
+                "IT Consultant",
+                "IT Manager",
+                "IoT Developer"
+            ]
+        },
+        {
+            "course": "Bachelor of Software Engineering (Honours)",
+            "link": "https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-software-engineering-honours-rsw",
+            "career": [
+                "Software Engineer",
+                "Software Tester",
+                "Software Quality Assurance Engineer",
+                "Software Developer",
+                "Software Architect",
+                "System Analyst",
+                "Web Developer",
+                "Mobile Application Developer",
+                "IT Consultant",
+                "IT Manager",
+                "Project Manager",
+                "Programmer"
+            ]
+        }
+    ],
+
+    "Master Degree": [
+        {
+            "course": "Master of Computer Science",
+            "link": "https://cpsr.tarc.edu.my/programmes/by-research/faculty-of-computing-and-information-technology/master-of-computer-science",
+            "career": [
+                "Researcher",
+                "R&D Analyst",
+                "Academician",
+                "Consultant",
+                "Software Engineer",
+                "Software Research Engineer",
+                "Software Developer",
+                "Software Analyst",
+                "Software Designer",
+                "Technical Lead",
+                "Project Leader",
+                "Solution Architect",
+                "Data Scientist",
+                "Quality Data Analyst"
+            ]
+        },
+        {
+            "course": "Master of Information Technology",
+            "link": "https://cpsr.tarc.edu.my/programmes/by-research/faculty-of-computing-and-information-technology/master-of-information-technology",
+            "career": [
+                "Researcher",
+                "Business Development Executive",
+                "Product Development Executive",
+                "Market Analyst",
+                "Product Planner",
+                "Project Consultant",
+                "Mobile Application Developer",
+                "Programmer",
+                "Software Developer",
+                "IT Strategist",
+                "Network Security Consultant",
+                "IT Consultant",
+                "Business Analyst",
+                "Data Security Consultant"
+            ]
+        },
+        {
+            "course": "Master of Science in Mathematical Sciences",
+            "link": "https://cpsr.tarc.edu.my/programmes/by-research/faculty-of-computing-and-information-technology/master-of-science-in-mathematical-sciences",
+            "career": [
+                "Business Analysis Consultant",
+                "Data Analyst",
+                "Data Scientist",
+                "Insurance Underwriter",
+                "Machine Learning Engineer",
+                "Quantitative Analyst",
+                "Operations Research Analyst",
+                "Researcher",
+                "Academician"
+            ]
+        }
+    ],
+
+    "PhD": [
+        {
+            "course": "Doctor of Philosophy in Computer Science",
+            "link": "https://cpsr.tarc.edu.my/programmes/by-research/faculty-of-computing-and-information-technology/doctor-of-philosophy-computer-science",
+            "career": [
+                "Lead Researcher",
+                "Senior Data Scientist",
+                "Senior Big Data Analyst",
+                "Senior Data Engineer",
+                "Senior Product Planner",
+                "Project Manager",
+                "Senior Mobile Application Developer",
+                "Senior Programmer",
+                "Senior Software Developer",
+                "Senior IT Strategist",
+                "Senior Market Analyst",
+                "Senior IT Consultant",
+                "Senior Business Analyst",
+                "Talent Director",
+                "Senior Machine Learning Engineer"
+            ]
+        },
+        {
+            "course": "Doctor of Philosophy in Information Technology",
+            "link": "https://cpsr.tarc.edu.my/programmes/by-research/faculty-of-computing-and-information-technology/doctor-of-philosophy-information-technology",
+            "career": [
+                "Lead Researcher",
+                "Senior Business Development Executive",
+                "Senior Product Development Executive",
+                "Senior Market Analyst",
+                "Senior Product Planner",
+                "Project Manager",
+                "Senior Mobile Application Developer",
+                "Senior Programmer",
+                "Senior Software Developer",
+                "Senior IT Strategist",
+                "Senior Network Security Consultant",
+                "Senior IT Consultant",
+                "Senior Business Analyst",
+                "Talent Director",
+                "Senior Data Security Consultant"
+            ]
+        },
+        {
+            "course": "Doctor of Philosophy in Mathematical Sciences",
+            "link": "https://cpsr.tarc.edu.my/programmes/by-research/faculty-of-computing-and-information-technology/doctor-of-philosophy-mathematical-sciences",
+            "career": [
+                "Business Consultant",
+                "Research Scientist (Maths)",
+                "Senior Data Scientist",
+                "Senior Academician"
+            ]
+        }
+    ]
+}

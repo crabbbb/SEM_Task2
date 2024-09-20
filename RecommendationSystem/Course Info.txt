@@ -1,0 +1,283 @@
+Diploma
+========
+
+1. Diploma in Computer Science
+
+https://focs.tarc.edu.my/programmes/diploma/diploma-in-computer-science-dcs
+
+Programmer
+System Analyst
+Mobile Application Developer
+Software Developer
+Database Administrator
+
+
+2. Diploma in Information Technology
+
+https://focs.tarc.edu.my/programmes/diploma/diploma-in-information-technology-dft
+
+Programmer
+System Analyst
+Web Developer
+Mobile Application Developer
+Network Support Officer
+IT Support Executive
+IT Executive
+
+
+3. Diploma in Software Engineering
+
+https://focs.tarc.edu.my/programmes/diploma/diploma-in-software-engineering-dsf
+
+System Analyst
+Software Engineer
+Software Developer
+Software Tester
+Web Developer
+Database Administrator
+
+
+Bachelor Degree
+================
+
+1. Bachelor of Science (Honours) in Management Mathematics with Computing
+
+https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-science-honours-in-management-mathematics-with-computi-rmm
+
+Officers in financial institutions
+Quantitative Analyst
+Quality Manager
+Research Officer
+Investment Analyst
+Financial Analyst
+Management Consultant
+Financial Planners and Advisor
+Pricing Analyst
+Market Risk Manager
+Credit Risk Manager
+Asset/Liability Manager
+IT Manager
+Programmer
+
+
+2. Bachelor of Information Systems (Honours) in Enterprise Information Systems
+
+https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-information-systems-honours-in-enterprise-information-s-rei
+
+ERP Consultant
+Business Analyst
+System Analyst
+Business Process Consultant
+Business Intelligence Specialist
+Data Warehouse Developer
+IT Consultant
+IT Manager
+Programmer
+Web Designer
+Database Administrator
+
+
+3. Bachelor of Computer Science (Honours) in Interactive Software Technology
+
+https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-computer-science-honours-in-interactive-software-techno-rst
+
+Games Designer
+Games Programmer
+Games Software Engineer
+Games Producer
+Games Tester
+Technical Lead
+Web Designer
+Multimedia Developer
+Software Developer
+Mobile Application Developer
+Systems Analyst
+
+
+4. Bachelor of Information Technology (Honours) in Information Security
+
+https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-information-technology-honours-in-information-security-ris
+
+Information Security Analyst
+Information Security Consultant
+Information Security Manager
+Information Security Engineer
+Information Security Administrator
+Information Security Auditor
+Forensics Analyst
+Forensics Investigator
+Security Software Developer
+Mobile Application Developer
+Network Security Engineer
+
+
+5. Bachelor of Computer Science (Honours) in Data Science
+
+https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-computer-science-honours-in-data-science-rds
+
+Data Scientist
+Data Engineer
+Data Analyst
+Data Modelling Engineer
+Software Developer
+Mobile Application Developer
+Computer Science Researcher
+Machine Learning Engineer
+
+
+6. Bachelor of Information Technology (Honours) in Software Systems Development
+
+https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-information-technology-honours-in-software-systems-deve-rsd
+
+Programmer
+Web Developer
+Multimedia Developer
+Mobile Application Developer
+Systems Analyst
+Software Engineer
+Database Administrator
+Network Engineer
+IT Consultant
+IT Manager
+IoT Developer
+
+
+7. Bachelor of Software Engineering (Honours)
+
+https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-software-engineering-honours-rsw
+
+Software Engineer
+Software Tester
+Software Quality Assurance Engineer
+Software Developer
+Software Architect
+Systems Analyst
+Web Developer
+Mobile Application Developer
+IT Consultant
+IT Manager
+Project Manager
+Programmer
+
+
+Master Degree
+==============
+
+1. Master of Computer Science
+
+https://cpsr.tarc.edu.my/programmes/by-research/faculty-of-computing-and-information-technology/master-of-computer-science
+
+Researcher
+R&D Analyst
+Academician
+Consultant
+Software Engineer
+Software Research Engineer
+Software Developer
+Software Analyst
+Software Designer
+Technical Lead
+Project Leader
+Solution Architect
+Data Scientist
+Quality Data Analyst
+
+2. Master of Information Technology
+
+https://cpsr.tarc.edu.my/programmes/by-research/faculty-of-computing-and-information-technology/master-of-information-technology
+
+Researcher
+Business Development Executive
+Product Development Executive
+Market Analyst
+Product Planner
+Project Consultant
+Mobile Application Developer
+Programmer
+Software Developer
+IT Strategist
+Network Security Consultant
+IT Consultant
+Business Analyst
+Data Security Consultant
+
+
+3. Master of Science in Mathematical Sciences
+
+https://cpsr.tarc.edu.my/programmes/by-research/faculty-of-computing-and-information-technology/master-of-science-in-mathematical-sciences
+
+Business Analysis Consultant
+Data Analyst
+Data Scientist
+Insurance underwriter
+Machine Learning Engineer
+Quantitative Analyst
+Operations Research Analyst
+Researcher
+Academician
+
+
+PhD
+====
+
+1. Doctor of Philosophy in Computer Science
+
+https://cpsr.tarc.edu.my/programmes/by-research/faculty-of-computing-and-information-technology/doctor-of-philosophy-computer-science
+
+Lead Researcher
+Senior Data Scientist
+Senior Big Data Analyst
+Senior Data Engineer
+Senior Product Planner
+Project Manager
+Senior Mobile Application Developer
+Senior Programmer
+Senior Software Developer
+Senior IT Strategist
+Senior Market Analyst
+Senior IT Consultant
+Senior Business Analyst
+Talent Director
+Senior Machine Learning Engineer
+
+
+2. Doctor of Philosophy in Information Technology
+
+https://cpsr.tarc.edu.my/programmes/by-research/faculty-of-computing-and-information-technology/doctor-of-philosophy-information-technology
+
+Lead Researcher
+Senior Business Development Executive
+Senior Product Development Executive
+Senior Market Analyst
+Senior Product Planner
+Project Manager
+Senior Mobile Application Developer
+Senior Programmer
+Senior Software Developer
+Senior IT Strategist
+Senior Network Security Consultant
+Senior IT Consultant
+Senior Business Analyst
+Talent Director
+Senior Data Security Consultant
+
+
+3. Doctor of Philosophy in Mathematical Sciences
+
+https://cpsr.tarc.edu.my/programmes/by-research/faculty-of-computing-and-information-technology/doctor-of-philosophy-mathematical-sciences
+
+Business Consultant
+Research Scientist (Maths)
+Senior Data Scientist
+Senior Academician
+
+
+
+
+
+
+
+
+
+
+
