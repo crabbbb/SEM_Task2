@@ -1,7 +1,7 @@
 import streamlit as st
 import json
 
-with open('CareerProspects.json') as file:
+with open('/mount/src/sem_task2_recommendationsystem/RecommendationSystem/CareerProspects.json') as file:
     data = json.load(file)
 
 
