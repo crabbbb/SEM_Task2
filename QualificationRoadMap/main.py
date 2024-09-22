@@ -29,11 +29,11 @@ def changeQualification(edLevel) :
 
 def getCourseList(edLevel, ws : WebScrap) : 
     q = ws.qualificationList[edLevel]
-    clist = q.course
+    clist = q.course # array
     rlist = []
-    for key in clist : 
-        courseList[key] = clist[key]
-        rlist.append(clist[key])
+    for c in clist : 
+        courseList[c.name] = c.label
+        rlist.append(c.name)
     return rlist
 
 def main() :
