@@ -27,7 +27,7 @@ def changeQualification(edLevel) :
     if edLevel != "SPM" and edLevel != "STPM" :
         index = qualificationProvide.index(edLevel) + 1
     if edLevel == "FOUNDATION" :
-        index + 1
+        index = index + 1
     return qualificationProvide[index:]
 
 def getCourseList(edLevel, ws : WebScrap) : 
