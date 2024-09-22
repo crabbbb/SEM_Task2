@@ -80,8 +80,8 @@ def main() :
     # create a button - this button name "Get Roadmap"
     if st.button("Get Roadmap"):
         
-    df = ""
-    st.success('The output is {}'.format(result)) 
+    # df = ""
+    # st.success('The output is {}'.format(result)) 
 
 
 if __name__=='__main__':
