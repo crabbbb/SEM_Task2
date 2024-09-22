@@ -37,7 +37,7 @@ def getCourseList(edLevel, ws : WebScrap) :
     return rlist
 
 def main() :
-    ws = WebScrap(filePath='JsonLibrary/repo.json')
+    ws = WebScrap(filePath='/mount/src/sem_task2/QualificationRoadMap/JsonLibrary/repo.json')
 
     ws.scrapAll()
 
