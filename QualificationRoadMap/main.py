@@ -113,7 +113,7 @@ def main() :
 
         uniqueStart = df['Level 2'].unique()
         for uni in uniqueStart :
-            st.header(f"Next Level Start From {uni}", divider="rainbow")
+            st.header(f"Next Level Start From :blue[{uni}]", divider="rainbow")
             newdf = df[df['Level 2']==uni]
             # newdf['Level 2'] = df['Level 2'].where(df['Level 2'] != df['Level 2'].shift())
             newdf = newdf.replace('<NA>', '')
