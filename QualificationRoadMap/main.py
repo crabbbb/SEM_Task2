@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from web_scraping import WebScrap
 
 currentEducationLevel = [
     'SPM',
@@ -18,13 +19,28 @@ qualificationProvide = [
     'PHD'
 ]
 
+courseList = {}
+
 def changeQualification(edLevel) :
     index = 0
     if edLevel != "SPM" and edLevel != "STPM" :
-        index = qualificationProvide.index(edLevel)
+        index = qualificationProvide.index(edLevel) + 1
     return qualificationProvide[index:]
 
+def getCourseList(edLevel, ws : WebScrap) : 
+    q = ws.qualificationList[edLevel]
+    clist = q.course
+    rlist = []
+    for key in clist : 
+        courseList[key] = clist[key]
+        rlist.append(clist[key])
+    return rlist
+
 def main() :
+    ws = WebScrap(filePath='/mount/src/SEM_TASK2/QualificationRoadMap/JsonLibrary/repo.json')
+
+    ws.scrapAll()
+
     # Title 
     st.title("Credit Approval Prediction")
 
@@ -38,6 +54,15 @@ def main() :
         "Choose your current Highest Academic Qualification Level : ",
         currentEducationLevel,
     )
+
+    if edLevel != "SPM" and edLevel != "STPM" :
+        studyAttarumt = st.checkbox(f"Do you study {edLevel} at TAR UMT? (If Yes please click the box)")
+
+        if studyAttarumt :
+            edqLevel = st.selectbox(
+                "Choose your Course : ",
+                getCourseList(edLevel),
+            )
 
     qLevel = st.selectbox(
         "Choose an Academic Qualification you wish to achieve : ",
