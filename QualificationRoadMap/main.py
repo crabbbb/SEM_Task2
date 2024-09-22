@@ -44,6 +44,8 @@ def main() :
 
     ws.scrapAll()
     domain = ""
+    edLevel = ""
+    edqLevel = ""
 
     # Title 
     st.title("Credit Approval Prediction")
@@ -78,7 +80,7 @@ def main() :
     )
 
     # create a button - this button name "Get Roadmap"
-    if st.button("Get Roadmap"):
+    # if st.button("Get Roadmap"):
         
     # df = ""
     # st.success('The output is {}'.format(result)) 
