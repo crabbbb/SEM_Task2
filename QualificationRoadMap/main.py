@@ -113,8 +113,8 @@ def main() :
 
         uniqueStart = df['Level 2'].unique()
         for uni in uniqueStart :
-            st.header(f"Next Level Start From {uniqueStart}", divider="rainbow")
-            newdf = df[df['Level 2']==uniqueStart]
+            st.header(f"Next Level Start From {uni}", divider="rainbow")
+            newdf = df[df['Level 2']==uni]
             st.table(newdf)
         # st.table(df)
 
