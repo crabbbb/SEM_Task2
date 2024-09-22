@@ -107,8 +107,7 @@ def main() :
     # create a button - this button name "Get Roadmap"
     if st.button("Get Roadmap"):
         df = getDataFrame(getTree(edLevel, qLevel, ws, edqLevel, domain))
-    # df = ""
-    st.success(st.table(df)) 
+        st.table(df)
 
 
 if __name__=='__main__':
