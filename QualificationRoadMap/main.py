@@ -19,7 +19,9 @@ qualificationProvide = [
 ]
 
 def changeQualification(edLevel) :
-    index = qualificationProvide.index(edLevel)
+    index = 0
+    if edLevel != "SPM" and edLevel != "STPM" :
+        index = qualificationProvide.index(edLevel)
     return qualificationProvide[index:]
 
 def main() :
