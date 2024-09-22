@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from web_scraping import WebScrap
+from buildTree import Tree
 
 currentEducationLevel = [
     'SPM',
@@ -36,19 +37,41 @@ def getCourseList(edLevel, ws : WebScrap) :
         rlist.append(c.name)
     return rlist
 
-# def callTree() :
+def extractLeafPaths(root):
+    paths = []
+    # traverse all nodes under the root
+    for node in root.descendants:  
+        if node.is_leaf:  # check leaf node
+            # get full path 
+            path = [ancestor.name for ancestor in node.path] 
+            paths.append(path)
+    return paths
+
+def getDataFrame(root) :
+    leaf_paths = extractLeafPaths(root)
+
+    # find the maximum depth of the paths to leaf nodes
+    max_depth = max(len(path) for path in leaf_paths)
+
+    # columnsName = ["Current", "Diploma / Foundation"]
+    df = pd.DataFrame(leaf_paths, columns=[f"Level {i+1}" for i in range(max_depth)])
+
+    return df 
+
+def getTree(edLevel, qLevel, ws, edqLevel, domain) : 
+    return Tree(edLevel, qLevel, ws, edqLevel, domain).root
 
 
 def main() :
     ws = WebScrap(filePath='/mount/src/sem_task2/QualificationRoadMap/JsonLibrary/repo.json')
 
     ws.scrapAll()
-    domain = ""
-    edLevel = ""
-    edqLevel = ""
+    domain = None
+    edLevel = None
+    edqLevel = None
 
     # Title 
-    st.title("Credit Approval Prediction")
+    st.title("Qualification Roadmap For :rainbow[TAR UMT] :cherry_blossom:")
 
     html_temp = """
     <div style="background-color:tomato;padding:10px">
@@ -79,11 +102,13 @@ def main() :
         changeQualification(edLevel),
     )
 
+    df = ""
+
     # create a button - this button name "Get Roadmap"
-    # if st.button("Get Roadmap"):
-        
+    if st.button("Get Roadmap"):
+        df = getDataFrame(getTree(edLevel, qLevel, ws, edqLevel, domain))
     # df = ""
-    # st.success('The output is {}'.format(result)) 
+    st.success(st.table(df)) 
 
 
 if __name__=='__main__':
