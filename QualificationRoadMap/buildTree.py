@@ -32,7 +32,7 @@ class Tree :
         title = self.edLevel
         # if domain not none, add domain
         if self.domain is not None : 
-            title += f"_{self.domain}"
+            title += f"\n{self.edqLevel}"
         
         self.root = Node(title, data=None)
     
@@ -42,14 +42,17 @@ class Tree :
         # 2
         if len(nextLevel) == 0 :
             return 
-        # max degree 
-        # if self.qLevel in nextLevel
         
         # diploma (1)
         for level in nextLevel :
             # diploma 
             q = self.ws.qualificationList[level] # diploma qualification instance 
-            cType = q.getRelatedTypeOfCourse() # CS IT  
+            
+            cType = []
+            if parentNode == self.root and self.domain is not None : 
+                cType = [self.domain]
+            else :
+                cType = q.getRelatedTypeOfCourse() # CS IT  
 
             # CS
             for ct in cType : 
