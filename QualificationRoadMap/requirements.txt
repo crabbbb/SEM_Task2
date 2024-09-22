@@ -1,5 +1,3 @@
-json
-os
 bs4
 pandas
 streamlit
