@@ -36,10 +36,14 @@ def getCourseList(edLevel, ws : WebScrap) :
         rlist.append(c.name)
     return rlist
 
+def callTree() :
+
+
 def main() :
     ws = WebScrap(filePath='/mount/src/sem_task2/QualificationRoadMap/JsonLibrary/repo.json')
 
     ws.scrapAll()
+    domain = ""
 
     # Title 
     st.title("Credit Approval Prediction")
@@ -64,15 +68,19 @@ def main() :
                 getCourseList(edLevel, ws),
             )
 
+            domain = courseList[edqLevel]
+
+            st.write(f":rainbow[Your course is in {domain} area]")
+
     qLevel = st.selectbox(
         "Choose an Academic Qualification you wish to achieve : ",
         changeQualification(edLevel),
     )
 
-    # # create a button - this button name "Predict"
-    # if st.button("Predict"):
-    #     result = predict(response=response) # when click will run this function 
-    result = ""
+    # create a button - this button name "Get Roadmap"
+    if st.button("Get Roadmap"):
+        
+    df = ""
     st.success('The output is {}'.format(result)) 
 
 
