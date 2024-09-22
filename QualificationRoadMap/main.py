@@ -110,7 +110,13 @@ def main() :
     # create a button - this button name "Get Roadmap"
     if st.button("Get Roadmap"):
         df = getDataFrame(getTree(edLevel, qLevel, ws, edqLevel, domain))
-        st.table(df)
+
+        uniqueStart = df['Level2'].unique()
+        for uni in uniqueStart :
+            st.header(f"Next Level Start From {uniqueStart}", divider="rainbow")
+            newdf = df[df['Level2']==uniqueStart]
+            st.table(newdf)
+        # st.table(df)
 
 
 if __name__=='__main__':
