@@ -37,12 +37,20 @@ class Tree :
         self.root = Node(title, data=None)
     
     def setChild(self, level, parentNode) : 
+        if level == self.qLevel :
+            return
+
         # spm -> diploma, foundation 
         nextLevel = self.checkPossibleNextLevel(level)
         # 2
         if len(nextLevel) == 0 :
             return 
-        
+
+        # degree
+        if self.qLevel in nextLevel :
+            # in same level exist, remove other only left this qLevel
+            nextLevel = [self.qLevel]
+
         # diploma (1)
         for level in nextLevel :
             # diploma 
@@ -84,3 +92,4 @@ class Tree :
         if edLevel in getPhD :
             nextlevel.append("PHD")
         return nextlevel
+    
