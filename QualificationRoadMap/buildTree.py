@@ -92,4 +92,3 @@ class Tree :
         if edLevel in getPhD :
             nextlevel.append("PHD")
         return nextlevel
-    
