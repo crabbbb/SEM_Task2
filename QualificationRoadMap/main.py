@@ -61,7 +61,7 @@ def main() :
         if studyAttarumt :
             edqLevel = st.selectbox(
                 "Choose your Course : ",
-                getCourseList(edLevel),
+                getCourseList(edLevel, ws),
             )
 
     qLevel = st.selectbox(
