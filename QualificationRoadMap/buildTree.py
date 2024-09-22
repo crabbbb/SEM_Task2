@@ -25,7 +25,7 @@ class Tree :
         self.domain = domain if domain is not None else None
         self.root = None
         self.__setRoot()
-        
+
 
     # init root 
     def __setRoot(self) : 
@@ -81,7 +81,3 @@ class Tree :
         if edLevel in getPhD :
             nextlevel.append("PHD")
         return nextlevel
-
-    def build(self) : 
-        # set root 
-        self.edqLevel() 

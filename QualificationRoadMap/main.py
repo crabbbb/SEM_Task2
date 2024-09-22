@@ -59,7 +59,10 @@ def getDataFrame(root) :
     return df 
 
 def getTree(edLevel, qLevel, ws, edqLevel, domain) : 
-    return Tree(edLevel, qLevel, ws, edqLevel, domain).root
+    tree = Tree(edLevel, qLevel, ws, edqLevel, domain)
+    tree.setChild(edLevel, tree.root)
+
+    return tree.root
 
 
 def main() :
