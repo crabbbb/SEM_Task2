@@ -111,7 +111,7 @@ def main() :
     if st.button("Get Roadmap"):
         df = getDataFrame(getTree(edLevel, qLevel, ws, edqLevel, domain))
 
-        uniqueStart = df['Level2'].unique()
+        uniqueStart = df['Level 2'].unique()
         for uni in uniqueStart :
             st.header(f"Next Level Start From {uniqueStart}", divider="rainbow")
             newdf = df[df['Level 2']==uniqueStart]
