@@ -36,7 +36,7 @@ def getCourseList(edLevel, ws : WebScrap) :
         rlist.append(c.name)
     return rlist
 
-def callTree() :
+# def callTree() :
 
 
 def main() :
